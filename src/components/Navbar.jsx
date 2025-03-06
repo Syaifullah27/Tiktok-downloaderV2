@@ -19,8 +19,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link href="/" className="logo">
-          <span className="logo-icon">🎥</span>
-          <span className="logo-text">TikTok Downloader</span>
+          <img src={`${!darkMode ? "/SYHLOGO.png" : "/LOGOSYHwhite.png"}`} alt="" width={50} />
+          <span className='separator' style={{ color: darkMode ? 'white' : 'black' }}>|</span>
+          <span className="logo-text" style={{ color: darkMode ? 'white' : 'black' }}>Esyeha Production</span>
         </Link>
         
         <div className="nav-controls">
