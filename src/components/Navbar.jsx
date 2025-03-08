@@ -19,9 +19,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link href="/" className="logo">
-          <img src={`${!darkMode ? "/SYHLOGO.png" : "/LOGOSYHwhite.png"}`} alt="" width={50} />
-          <span className='separator' style={{ color: darkMode ? 'white' : 'black' }}>|</span>
-          <span className="logo-text" style={{ color: darkMode ? 'white' : 'black' }}>Esyeha Production</span>
+          <img src={`${!darkMode ? "/LogoBlack.png" : "/LogoWhite.png"}`} alt="" width={220} />
         </Link>
         
         <div className="nav-controls">
