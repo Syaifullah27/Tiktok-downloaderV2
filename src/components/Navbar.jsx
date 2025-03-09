@@ -22,6 +22,11 @@ const Navbar = () => {
           <img src={`${!darkMode ? "/LogoBlack.png" : "/LogoWhite.png"}`} alt="" width={220} />
         </Link>
         
+        <div clsasName="nav-links"> 
+            <Link href="/auth/login">Login</Link>
+            <Link href="/auth/register">regis</Link>
+        </div>
+
         <div className="nav-controls">
           <button 
             className="theme-toggle"
